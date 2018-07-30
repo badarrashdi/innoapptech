@@ -1,0 +1,348 @@
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom inner-nav navbar-fixed-top hidden-xs" [ngClass]="{'header-normal':!isShrunk, 'header-fixed':isShrunk}">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-3">
+              <a class="navbar-brand stay logo" routerLink="" >
+                  <img src="assets/images/logo@2x.png" class="logo Logo-cd" width="147" alt="Logo">
+                  <span class="logo-text">Innoapps</span>
+              </a>
+              <a class="navbar-brand logo-stickey " routerLink="" >
+                  <img src="assets/images/logo@2x.png" class="logo-stickey Logo-cd" width="147" alt="Logo">
+                  <span class="logo-text">Innoapps</span>
+              </a>
+          </div>
+          <div class="col-md-6 col-sm-7">
+              <div class="row collapse navbar-collapse">
+                  <div class="navbar-header page-scroll">
+                      
+                  </div>
+                  <ul class="nav navbar-nav">
+                       <!--<li>
+                          <a href="services.html">Service</a>
+                      </li>-->
+                      <li class="dropdown-toggle">
+                          <a href="javascript:void(0);"  routerLinkActive="active"  data-toggle="dropdown">Solutions</a>
+                            <div class="dropdown-menu">
+                                <span class="h-line"></span>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span class="icon"><img src="/assets/images/design@2x.png" alt="" /></span>
+                                                            <span class="menu-txt">
+                                                                Design
+                                                                <span class="sub-txt">Create stunning visuals and experience</span>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                            <a href="#">
+                                                                <span class="icon"><img src="/assets/images/development@2x.png" alt="" /></span>
+                                                                <span class="menu-txt">
+                                                                     Development
+                                                                    <span class="sub-txt">Build a launch-ready product</span>
+                                                                </span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="#">
+                                                                    <span class="icon"><img src="/assets/images/prototyping@2x.png" alt="" /></span>
+                                                                    <span class="menu-txt">
+                                                                            Prototyping
+                                                                        <span class="sub-txt">Test product concepts quickly</span>
+                                                                    </span>
+                                                                </a>
+                                                            </li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="col-sm-4">
+                                                    <ul>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <span class="icon"><img src="/assets/images/cloud@2x.png" alt="" /></span>
+                                                                    <span class="menu-txt">
+                                                                            Cloud Computing
+                                                                        <span class="sub-txt">Get your product tested in all phases</span>
+                                                                    </span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <span class="icon"><img src="/assets/images/maintainence@2x.png" alt="" /></span>
+                                                                    <span class="menu-txt">
+                                                                            Maintainance
+                                                                        <span class="sub-txt">Get ongoing development support</span>
+                                                                    </span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <span class="icon"><img src="/assets/images/marketing@2x.png" alt="" /></span>
+                                                                    <span class="menu-txt">
+                                                                            Marketing
+                                                                        <span class="sub-txt">Supercharge your product with marketing </span>
+                                                                    </span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>        
+                                            </div>
+
+                                            <div class="col-md-3 col-sm-3 pull-right last-menu hidden-sm">
+                                                <ul class="">
+                                                    <li><strong>Why InnoApps?</strong></li>
+                                                    <li><a href="#"><img src="/assets/images/inhouse@2x.png" alt=""/> InHouse Talent</a></li>
+                                                    <li><a href="#"><img src="/assets/images/managed@2x.png" alt=""/> Managed Service</a></li>
+                                                    <li><a href="#"><img src="/assets/images/liquid@2x.png" alt=""/> Liquid Workspace</a></li>
+                                                    <li><a href="#"><img src="/assets/images/scalable@2x.png" alt=""/> Scalable Infrastructure</a></li>
+                                                    <li><a href="#"><img src="/assets/images/enterprise@2x.png" alt=""/> Enterprise Security</a></li>
+                                                    <li><a href="#"><img src="/assets/images/customer@2x.png" alt=""/> 24*7 Support</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                              </div>
+                      </li>
+                      <!--<li>
+                          <a href="industries.html">Industries</a>
+                      </li>-->
+                      <li>
+                          <a href="javascript:void(0);" routerLinkActive="active">Platform</a>
+                      </li>
+                      <li class="dropdown-toggle">
+                          <a href="javascript:void(0)" routerLinkActive="active">Company</a>
+                          <div class="dropdown-menu">
+                                <span class="h-line"></span>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <ul>
+                                            <li>
+                                                <a routerLink="about-us">
+                                                    
+                                                    <span class="menu-txt">
+                                                        About Us
+                                                        <span class="sub-txt">Learn how we work and 
+                                                            what we value</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a routerLink="contact-us">
+                                                    <span class="menu-txt">
+                                                            Contact Us
+                                                        <span class="sub-txt">Contact us and we start
+                                                            working in 48 hours</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                                
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <span class="menu-txt">
+                                                            Careers
+                                                        <span class="sub-txt">Contact us and we start
+                                                            working in 48 hours</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>        
+                                    </div>
+
+                                    <div class="col-md-3 col-sm-3 pull-right last-menu hidden-sm">
+                                        <ul class="">
+                                            <li><strong>Why InnoApps?</strong></li>
+                                            <li><a href="#"><img src="/assets/images/inhouse@2x.png" alt=""/> InHouse Talent</a></li>
+                                            <li><a href="#"><img src="/assets/images/managed@2x.png" alt=""/> Managed Service</a></li>
+                                            <li><a href="#"><img src="/assets/images/liquid@2x.png" alt=""/> Liquid Workspace</a></li>
+                                            <li><a href="#"><img src="/assets/images/scalable@2x.png" alt=""/> Scalable Infrastructure</a></li>
+                                            <li><a href="#"><img src="/assets/images/enterprise@2x.png" alt=""/> Enterprise Security</a></li>
+                                            <li><a href="#"><img src="/assets/images/customer@2x.png" alt=""/> 24*7 Support</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </li>
+                      <li>
+                        <a href="javascript:void(0);" routerLinkActive="active">Clients</a>
+                    </li>
+                      <!-- <li class="sign-in hidden-xs">
+                          <a href="sign-in.html">Sign In</a>
+                      </li> -->
+                   
+                  </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+          </div>
+          <div class="col-md-2 col-sm-2">
+              <ul class="nav navbar-nav pull-right">
+                <li><a href="javascript:void(0);">Sign In</a></li>
+              </ul>
+          </div>
+        </div>
+          <!-- Brand and toggle get grouped for better mobile display -->
+         
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          
+      </div>
+      <!-- /.container -->
+  </nav>
+
+
+
+
+
+    <nav class="navbar mobile-nav navbar-default visible-xs" [ngClass]="{'header-normal':!isShrunk, 'header-fixed':isShrunk}">
+            <div class="container-fluid">
+              <div class="navbar-header">
+
+                <a class="navbar-brand stay logo" routerLink="" >
+                        <img src="assets/images/logo.png" class="logo Logo-cd" alt="Logo">
+                        <span class="logo-text">Innoapps</span>
+                </a>
+                <a href="#" class="pull-right sign-in">Sign In</a>              
+            </div>
+              <div id="navbar" class="navbar-collapse collapse">
+                  <a href="#" class="btn btn-mobile">Start Your Project</a>
+                <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Solutions <span class="caret"></span></a>
+                    <div class="dropdown-menu">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        
+                                        <ul>
+                                            <li>
+                                                <a href="#" (click)="onMenuClick()">
+                                                    <span class="icon"><img src="/assets/images/design@2x.png" alt="" /></span>
+                                                    <span class="menu-txt">
+                                                        Design
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                    <a href="#" (click)="onMenuClick()">
+                                                        <span class="icon"><img src="/assets/images/development@2x.png" alt="" /></span>
+                                                        <span class="menu-txt">
+                                                             Development
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" (click)="onMenuClick()">
+                                                            <span class="icon"><img src="/assets/images/prototyping@2x.png" alt="" /></span>
+                                                            <span class="menu-txt">
+                                                                    Prototyping
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                            <ul>
+                                                    <li>
+                                                        <a href="#" (click)="onMenuClick()"> 
+                                                            <span class="icon"><img src="/assets/images/cloud@2x.png" alt="" /></span>
+                                                            <span class="menu-txt">
+                                                                    Cloud Computing
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" (click)="onMenuClick()">
+                                                            <span class="icon"><img src="/assets/images/maintainence@2x.png" alt="" /></span>
+                                                            <span class="menu-txt">
+                                                                    Maintainance
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" (click)="onMenuClick()">
+                                                            <span class="icon"><img src="/assets/images/marketing@2x.png" alt="" /></span>
+                                                            <span class="menu-txt">
+                                                                    Marketing
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                </ul>        
+                                    </div>
+
+                                    
+                                </div>
+                            </div>
+                      </div>
+                  </li>
+                  <li>
+                        <a href="javascript:void(0);"  routerLinkActive="active">Platform</a>
+                    </li>
+                    <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Company <span class="caret"></span></a>
+                            <div class="dropdown-menu">
+                            <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <ul>
+                                                <li>
+                                                    <a routerLink="about-us" (click)="onMenuClick()">
+                                                        
+                                                        <span class="menu-txt">
+                                                            About Us
+                                                            
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                        <a routerLink="contact-us" (click)="onMenuClick()">
+                                                            
+                                                            <span class="menu-txt">
+                                                                 Contact Us
+                                                               
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                    
+                                            </ul>
+                                        </div>
+    
+                                        <div class="col-sm-4">
+                                            <ul>
+                                                <li>
+                                                    <a href="#" (click)="onMenuClick()">
+                                                        <span class="menu-txt">
+                                                                Careers
+                                                            
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                            </ul>        
+                                        </div>
+    
+                                      </div>
+                                </div>
+                            </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);"  routerLinkActive="active">Clients</a>
+                    </li>
+                </ul>
+                <div class="menu-footer">
+                        <a routerLink="" >
+                                <img src="assets/images/logo.png" class="logo" width="96" height="21" alt="Logo">
+                        </a>
+                    <span>© 2018, InnoApps Pvt. Ltd.</span>
+                </div>
+              </div><!--/.nav-collapse -->
+            </div><!--/.container-fluid -->
+          </nav>

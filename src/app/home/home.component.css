@@ -1,0 +1,295 @@
+/*typos*/
+h2 {
+    color: #f85149;
+    font-size: 24px;
+    font-family: 'ColfaxWebMedium';
+    text-transform: uppercase;
+  }
+
+.owl-carousel {
+    margin: 0 !important;
+}
+.hero-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.home-section.blogs {
+    overflow: hidden;
+}
+@media (min-width: 1280px) {
+    .hero-content .txt-inner {
+        margin-top: 70px;
+    }
+    .hero-content .heading-1 {
+        width: 90%;
+    }
+}
+@media (min-width: 1024px) {
+    .hero-slider {
+        position: relative;
+        
+    }
+    .hero-slider img {
+    }
+}
+.hero-content .heading-1 {
+    font-family: 'ColfaxWebMedium';
+    font-size: 56px;
+    font-weight: normal;
+    color: #383b4a;
+    line-height:100%;
+}
+span.red {
+    color: #f85149;
+}
+.hero-content .light {
+    font-family: 'ColfaxWebLight';
+    font-size: 48px;
+    font-weight: normal;
+    color: #383b4a;
+}
+.for-yellow-caps {
+    font-family: 'ColfaxWebMedium';
+    font-size: 24px;
+    color: #234cc0;
+    display: block;
+    margin: 30px 0 40px;
+  }
+
+  .hero-content p{
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 1.07;
+    color: #383b4a;
+    margin-top: 40px;
+  }
+  .btn-primary {
+      border-radius: 2px;
+      border: none;
+      font-size: 25px;
+      font-family: 'ColfaxWebLight';
+      width: auto;
+  }
+  .home-section {
+      padding: 60px 0;
+      border-bottom: 1px solid #ebebeb;
+  }
+ .home-section.service {
+     border: none;
+     padding-bottom: 0;
+ }
+  .home-section h2 {
+      margin: 0;
+  }
+  .home-section h3 {
+    font-family: 'ColfaxWebLight';
+    font-size: 24px;
+    color: #80828c;
+    margin: 40px 0;
+ }
+ .client-logo .item {
+    width: 18%;
+    height: 120px;
+    border-radius: 2px;
+    border: solid 1px #ebebeb;
+    margin-right: 2%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    float: left;
+ }
+ .client-logo .item:last-child {
+     margin-right: 0;
+ }
+ .client-logo .item img {
+     max-width: 166px;
+     object-fit: cover;
+ }
+ .service-tag {
+    font-family: 'ColfaxWebLight';
+    font-size: 44px;
+    color: #383b4a;
+    line-height: 100%;
+    margin-top: 40px;
+    margin-bottom: -10px;
+ }
+ .service-tag span {
+     display: block;
+     font-family: 'ColfaxWebMedium';
+ }
+
+
+ .service-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .service-grid .grid {
+    width: 33.3333%;
+    float: left;
+    padding: 40px;
+    text-align: left;
+    border-bottom: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+    cursor: pointer;
+    transition: all 1000ms linear;
+  }
+  .service-grid .grid:hover {
+      background-color: #e9e9e9;
+  }
+  .service-grid .grid div {
+    display: inline-block;
+  }
+  .service-grid .grid .icon {
+    width: 65px;
+    float: left;
+    position: relative;
+    top: -5px;
+  }
+  .service-grid .grid .icon img {
+    width: 100%;
+  }
+  .service-grid .grid .content {
+    width: calc(100% - 65px);
+    padding-left: 15px;
+  }
+  
+  .service-grid .grid h4 {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'ColfaxWebMedium';
+  }
+  .service-grid .grid p {
+    color: #80828c;
+    font-size: 16px;
+    margin-top: 5px;
+    line-height: 19px;
+  }
+
+@media (max-width: 1279px) and (min-width: 768px){
+    .hero-content .txt-inner {
+        margin-top: 70px;
+    }
+    .hero-slider {
+        min-height: 600px;
+        height: 600px;
+      }
+      .hero-slider img {
+        height: 600px;
+        object-fit: cover;
+      }
+    .hero-slider.home-slider {
+        min-height: 700px;
+        height: 700px;
+      }
+      .hero-slider.home-slider img {
+        height: 700px;
+        object-fit: cover;
+      }
+      .hero-content {
+          height: 700px;
+      }
+    /* .client-logo .item {
+        width: 33.333%;
+        margin-bottom: 15px;
+        display: block;
+        clear: both;
+    } */
+    /* .client-logo .item:nth-child(3n) {
+        width: 31.333%;
+        margin-bottom: 15px;
+        margin-right: 0;
+    } */
+    .client-logo .item img  {
+        max-width: 90%;
+    }
+    .service-grid .grid {
+        width: 50%;
+    }
+    .hero-content .heading-1 {
+        font-size: 40px
+    }
+    .hero-content .light {
+        font-size: 32px;
+        display: block;
+    }
+}
+
+  @media (max-width: 767px) {
+    .hero-slider {
+        position: relative;
+        height: 541px;
+    }
+    .home-section {
+        padding-top: 20px;
+        overflow: hidden;
+    }
+    .home-section h2{
+        font-size: 16px;
+    }
+    .service-tag {
+        font-size: 24px;
+    }
+    .home-section h3 {
+        font-size: 17px;
+    }
+    .hero-content .heading-1 {
+        font-size: 24px;
+      }
+      .hero-content .light {
+        font-size: 22px;
+        display: block;
+        margin-top: 20px;
+      }
+      .for-yellow-caps {
+          font-size: 14px;
+      }
+      .btn-primary {
+        padding: 10px 20px;
+        font-size: 14px;
+      }
+      .hero-content p {
+          font-size: 17px;
+          line-height: 22px;
+          padding-right: 50px;
+      }
+      .hero-content p br {
+          display: none;
+      }
+      .client-logo .item {
+          width: 46% !important;
+          margin-bottom: 15px;
+          margin: 2% !important;
+          float: left;
+      }
+      .client-logo .item:nth-child(5) {
+          display: none;
+      }
+      .client-logo .item img {
+          max-width: 80%;
+      }
+      .service-grid .grid {
+          width: 100%;
+      }
+
+      .for-yellow-caps {
+        margin: 20px 0;
+      }
+
+      .service-grid .grid {
+          padding: 20px;
+      }
+      .service-grid .grid .icon {
+          width: 40px;
+      }
+      .service-grid .grid p {
+          font-size: 14px;
+      }
+  }

@@ -1,0 +1,12 @@
+@media (min-width: 1200px) {
+    footer .container .row {
+        display: flex;
+    }
+    
+    footer .container .row .company {
+        flex: 1 30%;
+    }
+    footer .container .row .company.socials {
+        flex: 1 10%;
+    }
+}

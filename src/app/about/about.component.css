@@ -1,0 +1,220 @@
+/*typos*/
+h2 {
+    color: #f85149;
+    font-size: 24px;
+    font-family: 'ColfaxWebMedium';
+    text-transform: uppercase;
+  }
+section h3 {
+    color: #f85149;
+    font-size: 24px;
+    font-family: 'ColfaxWebMedium';
+    text-transform: uppercase;
+}
+.hero-slider {
+    position: relative;
+}
+.owl-carousel {
+    margin: 0 !important;
+}
+.hero-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.hero-content .heading-1 {
+    font-family: 'ColfaxWebMedium';
+    font-size: 56px;
+    font-weight: normal;
+    color: #383b4a;
+    line-height:100%;
+    margin-bottom: 30px;
+}
+span.red {
+    color: #f85149;
+}
+.hero-content .light {
+    font-family: 'ColfaxWebLight';
+    font-size: 48px;
+    font-weight: normal;
+    color: #383b4a;
+}
+.for-yellow-caps {
+    font-family: 'ColfaxWebMedium';
+    font-size: 24px;
+    color: #234cc0;
+    display: block;
+    margin: 30px 0 40px;
+  }
+
+  .hero-content p{
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 1.07;
+    color: #383b4a;
+    margin-top: 40px;
+  }
+  .btn-primary {
+      border-radius: 2px;
+      border: none;
+      font-size: 25px;
+      font-family: 'ColfaxWebLight';
+      width: auto;
+  }
+  .home-section {
+      padding: 60px 0;
+      border-bottom: 1px solid #ebebeb;
+  }
+  .home-section h2 {
+      margin: 0;
+  }
+  .home-section h3 {
+    font-family: 'ColfaxWebLight';
+    font-size: 24px;
+    color: #80828c;
+    margin: 40px 0;
+ }
+ .client-logo {}
+ .client-logo .item {
+    width: 18%;
+    height: 120px;
+    border-radius: 2px;
+    border: solid 1px #ebebeb;
+    margin-right: 2%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    float: left;
+ }
+ .client-logo .item:last-child {
+     margin-right: 0;
+ }
+ .client-logo .item img {
+     max-width: 166px;
+     object-fit: cover;
+ }
+ .service-tag {
+    font-family: 'ColfaxWebLight';
+    font-size: 44px;
+    color: #383b4a;
+    line-height: 100%;
+    margin-top: 40px;
+    margin-bottom: -10px;
+ }
+ .service-tag span {
+     display: block;
+     font-family: 'ColfaxWebMedium';
+ }
+
+ .section.about {
+     margin-top: 40px;
+ }
+
+ @media (max-width: 1279px) and (min-width: 768px){
+   
+    .client-logo .item {
+        width: 33.333%;
+        margin-bottom: 15px;
+        display: block;
+        clear: both;
+    }
+    .client-logo .item:nth-child(3n) {
+        width: 31.333%;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    .service-grid .grid {
+        width: 50%;
+    }
+    .hero-content .heading-1 {
+        font-size: 40px
+    }
+    .hero-content .light {
+        font-size: 32px;
+        display: block;
+    }
+}
+ @media (max-width: 767px) {
+    .hero-slider {
+        position: relative;
+    }
+    .home-section {
+        padding-top: 20px;
+        overflow: hidden;
+    }
+    .home-section h2{
+        font-size: 16px;
+    }
+    .service-tag {
+        font-size: 24px;
+    }
+    .home-section h3 {
+        font-size: 17px;
+    }
+    .hero-content .heading-1 {
+        font-size: 24px;
+      }
+      .hero-content .light {
+        font-size: 22px;
+        display: block;
+        margin-top: 20px;
+      }
+      .for-yellow-caps {
+          font-size: 14px;
+      }
+      .btn-primary {
+        padding: 10px 20px;
+        font-size: 14px;
+      }
+      .hero-content p {
+          font-size: 17px;
+          line-height: 22px;
+          padding-right: 50px;
+      }
+      .hero-content p br {
+          display: none;
+      }
+      .client-logo .item {
+          width: 46% !important;
+          margin-bottom: 15px;
+          margin: 2%;
+          float: left;
+      }
+      .about h3 {
+        margin-bottom: 0;
+        margin-top: 10px;
+      }
+      .about p {
+          margin: 10px 0 20px;
+      }
+      .client-logo .item:nth-child(5) {
+          display: none;
+      }
+      .client-logo .item img {
+          max-width: 80%;
+      }
+      .service-grid .grid {
+          width: 100%;
+      }
+
+      .for-yellow-caps {
+        margin: 20px 0;
+      }
+
+      .service-grid .grid {
+          padding: 20px;
+      }
+      .service-grid .grid .icon {
+          width: 40px;
+      }
+      .service-grid .grid p {
+          font-size: 14px;
+      }
+  }
